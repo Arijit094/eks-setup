@@ -80,7 +80,7 @@ eksctl create nodegroup --cluster=my-eks22 \
                        --nodes-max=4 \
                        --node-volume-size=20 \
                        --ssh-access \
-                       --ssh-public-key=Key \
+                       --ssh-public-key=jenkins-server \
                        --managed \
                        --asg-access \
                        --external-dns-access \
